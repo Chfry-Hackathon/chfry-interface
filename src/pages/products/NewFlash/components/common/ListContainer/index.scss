@@ -1,0 +1,38 @@
+@media screen and (min-width: 751px) {
+  .loading-box {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    &.m-loading-box-sm {
+      padding-top: 40px;
+    }
+    &.m-loading-box-big {
+      padding-top: 65px;
+    }
+  }
+  .m-list-container-box {
+    width: 560px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../../../../../assets/newFlash/listContainer_sm_bg.svg");
+    &.m-list-container-big {
+      height: 727px;
+      background-image: url("../../../../../../assets/newFlash/listContainer_big_bg.svg");
+    }
+    &.m-list-container-sm {
+      height: 627px;
+      background-image: url("../../../../../../assets/newFlash/listContainer_sm_bg.svg");
+    }
+    .m-list-container-content {
+      width: 100%;
+      height: 100%;
+      padding-top: 16px;
+      padding-left: 34px;
+      padding-right: 34px;
+      padding-bottom: 20px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+    }
+  }
+}

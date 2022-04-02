@@ -1,0 +1,326 @@
+@media screen and (min-width: 1440px) {
+  .btn-box {
+    display: flex;
+    align-items: center;
+    .leverage {
+      margin-left: 25px;
+    }
+  }
+  .page-home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 1296px;
+
+
+    .btn {
+      font-size: 28px;
+      line-height: 43px;
+      width: 460px;
+      padding: 0;
+      height: 176px;
+      display: flex;
+      justify-content: center;
+      padding-top: 1rem;
+
+    }
+
+    .p {
+      margin: 10px auto;
+    }
+
+    .p1 {
+      font-family: Bugaki;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 73px;
+      text-align: center;
+
+      color: #000000;
+
+    }
+    .p5 {
+      margin: 64px auto 40px;
+      text-align: center;
+
+      .t1 {
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 49px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 40px;
+      }
+
+      .t2 {
+        display: flex;
+        margin: 12px auto;
+        justify-content: center;
+
+        button {
+          margin: 0 10px;
+          width: 224px;
+          height: 73px;
+          padding: 5px 5px 10px 10px;
+
+          font-family: Arial Black;
+          color: #000000;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 20px;
+          line-height: 23px;
+        }
+
+        button:active {
+          padding: 15px 15px 10px 10px;
+        }
+      }
+    }
+
+    .p2 {
+      font-family: Arial Black;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 34px;
+      text-align: center;
+    }
+
+    .p3 {
+      display: flex;
+      height: 381px;
+      width: 1024px;
+      justify-content: center;
+      align-items: center;
+      margin-top: -3rem;
+      overflow: hidden;
+
+      .m-logo-pic {
+        width:253px;
+        height:238px;
+      }
+
+      // img {
+      //   width: 1336px;
+      //   height: 768px;
+      // }
+    }
+
+    .p4 {
+    }
+
+    .box-pane {
+      display: flex;
+      /*flex-direction: column;*/
+      justify-content: space-between;
+      margin-top: 60px;
+
+
+    }
+
+    .box-pane2 {
+
+      display: flex;
+      flex-direction: column;
+      /*justify-content: space-between;*/
+      margin-top: 60px;
+      width: 960px;
+
+      .box-pane-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img1 {
+          height: 240px;
+          margin-left: -603px;
+          position: absolute;
+        }
+
+        .img2 {
+          height: 240px;
+          margin-right: -575px;
+          position: absolute;
+        }
+
+      }
+
+      /*.box-pane-con1{*/
+      /*justify-content: center;*/
+      /*}*/
+      .box-pane-con2 {
+        margin-top: 25px;
+      }
+    }
+
+    .box {
+      padding: 24px 8px 45px 30px;
+      position: relative;
+      width: 563px;
+      height: 363px;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background: url("../../assets/home_box.svg") no-repeat;
+      background-size: 100% 100%;
+
+      .box-con1 {
+        text-align: left;
+        width: 100%;
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 31px;
+        color: #FBB33B;
+      }
+
+      .box-con2 {
+        display: flex;
+        align-items: center;
+
+        .box-con2-t1 {
+          width: 120px;
+          height: 120px;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .box-con2-t2 {
+          width: 275px;
+          margin-left: 24px;
+          font-family: Arial;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          line-height: 36px;
+          color: #171717;
+
+          text-align: center;
+        }
+      }
+
+      .box-con3 {
+        text-align: right;
+        width: 100%;
+      }
+    }
+
+    .box2 {
+      position: relative;
+      width: 408px;
+      height: 476px;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 40px 52px;
+
+      background: url("../../assets/home_box2.svg");
+      background-size: 100% 100%;
+
+
+      .box2-con1 {
+        width: 294px;
+        text-align: center;
+        padding: 12px 0;
+        border-bottom: 1px solid #000000;
+        margin: 12px auto;
+
+
+        .box2-con-p1 {
+          font-family: Bugaki;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 43px;
+          text-align: center;
+          color: #000000;
+        }
+
+      }
+
+      .box2-con2 {
+        text-align: center;
+
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 31px;
+        text-align: center;
+
+        color: #000000;
+
+        height: 250px;
+        display: flex;
+        align-items: center;
+      }
+
+
+    }
+
+    .p-bd {
+      margin-top: 120px;
+      text-align: center;
+
+      .p-bd-span {
+        cursor: pointer;
+        margin: auto 18px;
+        display: inline-flex;
+        align-items: center;
+        font-size: 30px;
+
+        .p-bd-span-p1 {
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+
+          line-height: 42px;
+          margin-left: 12px;
+
+          color: #F68B38;
+
+
+          text-stroke: 2px black;
+          -webkit-text-stroke: 2px black;
+          text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+        }
+      }
+
+      .p-bd-span:hover {
+        opacity: 0.7;
+      }
+
+    }
+
+    .btns {
+      text-align: center;
+      margin-top: 80px;
+
+      button {
+        width: 316px;
+        height: 160px;
+
+        font-family: Bugaki;
+        font-size: 28px;
+        line-height: 43px;
+        color: #000000;
+
+        display: flex;
+        margin: 2px auto;
+        justify-content: center;
+        padding-top: 12px;
+      }
+
+    }
+  }
+}

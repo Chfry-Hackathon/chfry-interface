@@ -1,0 +1,77 @@
+{
+  "name": "whale-potential-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:test": "vue-cli-service build --mode test",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build:demo": "vue-cli-service build --mode demo",
+    "build:testnet": "vue-cli-service build --mode testnet",
+    "build:prod": "vue-cli-service build --mode prod",
+    "build:testkovan": "vue-cli-service build --mode testkovan",
+    "build:test2kovan": "vue-cli-service build --mode testkovan",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.4.1",
+    "ant-design-vue": "^1.7.4",
+    "axios": "^0.21.4",
+    "better-scroll": "^2.4.2",
+    "bignumber.js": "^9.0.1",
+    "chfry-dsa": "1.1.24-release",
+    "core-js": "^3.6.5",
+    "ethereumjs-abi": "^0.6.8",
+    "ethers-multicall": "^0.2.1",
+    "keccak256": "^1.0.2",
+    "lottie-web-vue": "^1.0.1",
+    "merkletreejs": "^0.2.18",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "regenerator-runtime": "^0.13.7",
+    "urql": "^2.0.5",
+    "vue": "^2.6.11",
+    "vue-analytics": "^5.22.1",
+    "vue-bus": "^1.2.1",
+    "vue-count-to": "^1.0.13",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue-router": "^3.4.9",
+    "vuex": "^3.6.2",
+    "walletconnect": "^1.4.1",
+    "web3": "^1.3.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

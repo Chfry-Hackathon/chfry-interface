@@ -1,0 +1,79 @@
+@media screen and (min-width: 1440px) {
+  .cheese-page {
+    position: relative;
+    width: 824px;
+    margin: 2rem auto;
+    text-align: center;
+    .m-retired-container {
+      .m-retired-content {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        .m-retired-title {
+          font-family: Bugaki;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 43px;
+          color: #000000;
+        }
+        .m-retired-desc {
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 18px;
+          line-height: 25px;
+          text-align: center;
+          color: #000000;
+        }
+      }
+    }
+    .chr-title{
+      .t1{
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        /*font-size: 36px;*/
+        /*line-height: 55px;*/
+        font-size: 40px;
+        line-height: 61px;
+        display: inline-block;
+        position: relative;
+
+        .t1-span1{
+
+          color: #F68B38;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+        }
+        .t1-span2{
+          color: #FBB33B;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+
+          position: absolute;
+          top: -3px;
+          left: 0;
+        }
+      }
+      .t2{
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+
+      }
+    }
+
+    .pools {
+      position: relative;
+      margin: 40px auto 36px;
+      display: block;
+      height: 609px;
+      display: flex;
+      justify-content: center;
+    }
+
+
+  }
+}

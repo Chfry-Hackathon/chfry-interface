@@ -1,0 +1,56 @@
+name: Deploy Chfry Web To S3
+on:
+  workflow_dispatch:
+    inputs:
+      env:
+        description: Environment
+        type: choice
+        required: true
+        default: demo
+        options:
+          - demo
+          - dev
+          - testkovan
+          - test2kovan
+          - testnet
+          - prod
+jobs:
+  deploy:
+    runs-on: [self-hosted, web, chfry]
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2.4.0
+      - name: setup nodejs
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: install dependencies and build
+        run: |
+          npm install -g yarn
+          yarn install
+          npm run build:${{ github.event.inputs.env }}
+      - name: Deploy Demo to S3
+        if: ${{ github.event.inputs.env == 'demo' }}
+        run: |
+          aws s3 cp ./dist/ s3://www.chfry-demo.finance.com/ --recursive
+      - name: Deploy dev to S3
+        if: ${{ github.event.inputs.env == 'dev' }}
+        run: |
+          aws s3 cp ./dist/ s3://www.chfry-test.finance.com/ --recursive
+      - name: Deploy Test Kovan to S3
+        if: ${{ github.event.inputs.env == 'testkovan' }}
+        run: |
+          aws s3 cp ./dist/ s3://chfry-kovan-test-interface/ --recursive
+      - name: Deploy Test Kovan 2 to S3
+        if: ${{ github.event.inputs.env == 'test2kovan' }}
+        run: |
+          aws s3 cp ./dist/ s3://chfry-kovan-test2-interface/ --recursive
+      - name: Deploy Testnet to S3
+        if: ${{ github.event.inputs.env == 'testnet' }}
+        run: |
+          aws s3 cp ./dist/ s3://www.chfry-testnet.finance.com/ --recursive
+      - name: Deploy Prod to S3
+        if: ${{ github.event.inputs.env == 'prod' }}
+        run: |
+          aws s3 cp ./dist/ s3://www.chfry.finance/ --recursive
+

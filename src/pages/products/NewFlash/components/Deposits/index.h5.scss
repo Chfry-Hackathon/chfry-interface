@@ -1,0 +1,91 @@
+@media screen and (max-width: 750px) {
+  .m-deposits-content {
+    padding-top: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .apy {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    .number {
+      margin-top: 5px;
+      width: 100%;
+      height: 16px;
+      line-height: 16px;
+      font-family: Arial;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      color: #000000;
+    }
+    .apr {
+      width: 100%;
+      height: 16px;
+      line-height: 16px;
+      font-weight: 400;
+      span {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        color: #000000;
+      }
+    }
+  }
+  .deposits {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+    span {
+      display: inline-block;
+      padding-left: 4px;
+      font-family: Arial Black;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12px;
+      line-height: 17px;
+      color: #000000;
+    }
+  }
+  .apy {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .balance {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    .amount {
+      margin-top: 5px;
+      font-family: Arial;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      height: 16px;
+      line-height: 16px;
+      // line-height: 14px;
+      color: #000000;
+    }
+    .estimated-money {
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+    }
+  }
+}

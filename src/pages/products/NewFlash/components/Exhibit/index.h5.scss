@@ -1,0 +1,12 @@
+@media screen and (max-width: 750px) {
+  .m-chfry-flash-cart-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 21px;
+    flex-direction: column;
+    .m-chfry-flash-cart-list {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+@media screen and (max-width: 750px) {
+  .m-close-position-container {
+    width: 280px;
+    .m-close-position-title {
+      padding-top: 31px;
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      color: rgba(23, 23, 23, 0.6);
+    }
+
+    .m-close-position-coin {
+      display: flex;
+      align-items: center;
+      padding-top: 16px;
+      .num {
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+      }
+      .icon {
+        display: flex;
+        padding-left: 8px;
+        img {
+          width: 28px;
+          height: 28px;
+        }
+      }
+    }
+
+    .m-close-position-swap-loss {
+      padding-top: 32px;
+      font-family: Arial;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 18px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .m-close-position-input {
+      padding-top: 16px;
+      display: flex;
+      align-items: center;
+      ::v-deep .ant-input-number-handler-wrap {
+        display: none;
+      }
+      ::v-deep .ant-input-number {
+        width: 69px;
+        height: 32px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      ::v-deep .ant-input-number-focused {
+        border: 1px solid #000000;
+        box-shadow: none;
+      }
+      ::v-deep .ant-input-number-handler:hover .ant-input-number-handler-up-inner,
+      .ant-input-number-handler:hover .ant-input-number-handler-down-inner {
+        color: #000000;
+      }
+      ::v-deep .ant-input-number:focus {
+        border: 1px solid #000000;
+        box-shadow: none;
+      }
+
+      ::v-deep .ant-input {
+        width: 69px;
+        height: 32px;
+        border: 1px solid rgba(0, 0, 0, 0.6);
+
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      ::v-deep .ant-input:focus {
+        border: 1px solid #000000;
+        box-shadow: none;
+      }
+      ::v-deep .ant-input-group-addon {
+        border: 1px solid #000000;
+      }
+      span {
+        padding-left: 8px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+    .m-add-margin-popup-btn {
+      width: 100%;
+      padding-top: 58px;
+      display: flex;
+      justify-content: space-around;
+      .chr-c-btn {
+        min-width: 120px !important;
+        height: 38px !important;
+        border: 2px solid #000000;
+        background-color: #fff;
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 25px !important;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #000000;
+        }
+      }
+    }
+  }
+}

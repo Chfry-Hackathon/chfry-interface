@@ -1,0 +1,21 @@
+@media screen and (max-width: 750px) {
+  .m-withdraw-container {
+    width: 323px;
+    height: 374px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    .m-withdraw-content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: scroll;
+    }
+  }
+  .m-withdraw-loading {
+    width: 100%;
+    height: 100%;
+  }
+}

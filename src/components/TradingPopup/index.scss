@@ -1,0 +1,87 @@
+@media screen and(min-width: 751px) {
+  .m-dialog-chr-login-error {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    .m-dialog-container {
+      margin: 0;
+      padding: 0;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 28px;
+      width: 539px;
+      height: 418px;
+      background-image: url("../../assets/newFlash/dialog_pc.svg");
+      -webkit-background-size: 100% 100%;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      .m-dialog-title {
+        width: 100%;
+        height: 65px;
+        line-height: 65px;
+        text-indent: 48px;
+        font-family: Arial Black;
+        color: #171717;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+      }
+      .m-dialog-content {
+        width: 535px;
+        height: 353px;
+        display: flex;
+        // align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        .m-dialog-status {
+          padding-top: 108px;
+          width: 80px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+        .m-dialog-status-title {
+          width: 300px;
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 14px;
+          line-height: 20px;
+          color: #000000;
+        }
+      }
+      .m-dialog-footer {
+        height: 81px;
+        width: 100%;
+      }
+      .m-dialog-close {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 24px;
+        height: 24px;
+        top: 20px;
+        right: 32px;
+        border: 0;
+        img {
+          display: flex;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

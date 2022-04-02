@@ -1,0 +1,308 @@
+@media screen and (max-width: 750px){
+
+  .page-flash {
+    position: relative;
+    width: 100%;
+    padding: 32px 16px 64px;
+    text-align: center;
+    .chr-title{
+      .t1{
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 49px;
+        display: inline-block;
+        position: relative;
+
+        .t1-span1{
+
+          color: #F68B38;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+        }
+        .t1-span2{
+          color: #FBB33B;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+
+          position: absolute;
+          top: -3px;
+          left: 0;
+        }
+      }
+      .t2{
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #000000;
+
+      }
+      .t3{
+        margin-top: 48px;
+        margin-bottom: 12px;
+        button{
+          width: 215px;
+          height: 82px;
+          padding-top: 6px;
+          display: inline-flex;
+          justify-content: center;
+
+          font-family: Bugaki;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 21px;
+          color: #000000;
+        }
+
+        button:active{
+          padding-top: 10px;
+        }
+      }
+    }
+
+    .p1 {
+      position: relative;
+      width: 343px;
+      height: 606px;
+      margin: 40px auto;
+      background: url("../../../assets/flash_box_bg1m.svg") no-repeat;
+      -webkit-background-size: 100% 100%;
+      background-size: 100% 100%;
+
+      padding: 24px 30px 40px;
+
+      .p1-1 {
+        position: relative;
+
+        .t1 {
+          margin-bottom: 20px;
+
+        }
+
+        .t2 {
+          font-family: Bugaki;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          color: #000000;
+
+        }
+
+        .t3 {
+          font-family: Arial Black;
+          font-style: normal;
+          /*font-weight: 900;*/
+          font-size: 28px;
+          line-height: 39px;
+          text-align: center;
+          color: #000000;
+        }
+
+      }
+
+      .p1-2::-webkit-scrollbar {
+        display: none;
+      }
+
+      .p1-2 {
+        position: relative;
+        //height: 582px;
+        overflow: auto;
+        margin: 32px 0;
+
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+
+        //border: 1px solid #e095a6;
+        padding: 12px 0;
+        border-radius: 12px;
+
+        .t1 {
+          font-family: Arial Black;
+          font-style: normal;
+          /*font-weight: 900;*/
+          font-size: 22px;
+          line-height: 31px;
+          /* identical to box height */
+          color: #000000;
+          margin-bottom: 20px;
+
+
+        }
+
+        .t2 {
+          width: 100%;
+          height: 100px;
+          padding: 20px 22px;
+          border: 1px solid black;
+          background-color: transparent;
+
+          font-family: Arial Black;
+          /*font-weight: 900;*/
+          font-size: 40px;
+          line-height: 56px;
+
+          color: #000000;
+
+        }
+
+        .t3 {
+          width: calc(100% + 2rem);
+          background-color: black;
+          margin-left: -1rem;
+          margin-top: 46px;
+        }
+
+      }
+
+      .p1-3 {
+
+        button {
+          width: 460px;
+          height: 176px;
+
+          font-family: Bugaki;
+          font-size: 28px;
+          line-height: 43px;
+          color: #000000;
+
+          display: flex;
+          margin: 2px auto;
+          justify-content: center;
+          padding-top: 12px;
+        }
+      }
+    }
+
+    .p2 {
+      margin-top: 12px;
+
+      .t1 {
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+        border-bottom: 2px solid;
+        display: inline-block;
+      }
+
+      .t2 {
+        display: flex;
+        width: 100%;
+        margin: 14px auto;
+        justify-content: space-between;
+
+      }
+
+      .t3 {
+        .claimed {
+          padding: 20px 7px 30px 17px;
+          height: 125px;
+          background-image: url("../../../assets/flash_box_bg.svg");
+          -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+
+          margin: 0 auto;
+
+          ::v-deep .p2 {
+            margin: 12px 0;
+          }
+
+
+        }
+
+      }
+    }
+
+    .p3 {
+      margin: 64px auto 40px;
+
+      .t1 {
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+        border-bottom: 2px solid;
+        display: inline-block;
+        margin-bottom: 40px;
+      }
+
+      .t2 {
+        text-align: center;
+
+        button {
+          margin: 0 10px;
+          width: 148px;
+          height: 49px;
+          padding: 5px 5px 10px 10px;
+
+          font-family: Arial Black;
+          font-style: normal;
+          /*font-weight: 900;*/
+          font-size: 16px;
+          line-height: 23px;
+          color: #171717;
+        }
+      }
+    }
+
+    .p4 {
+      margin-top: 52px;
+
+      .t1 {
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+
+        border-bottom: 2px solid;
+        display: inline-block;
+      }
+
+      .t2 {
+        margin-top: 40px;
+        margin-bottom: 48px;
+
+        img{
+          width: 298px;
+        }
+      }
+
+      .t3 {
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+
+
+        text-align: center;
+      }
+    }
+
+    .pool-con {
+      position: relative;
+      display: flex;
+      width: 1028px;
+      justify-content: space-between;
+      margin: 32px auto 64px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.upgradableproduct = void 0;
+exports.upgradableproduct = [{ "inputs": [], "stateMutability": "nonpayable", "type": "constructor" }, { "anonymous": false, "inputs": [{ "indexed": true, "internalType": "address", "name": "_oldImpl", "type": "address" }, { "indexed": true, "internalType": "address", "name": "_newImpl", "type": "address" }], "name": "ImplChanged", "type": "event" }, { "inputs": [], "name": "impl", "outputs": [{ "internalType": "address", "name": "", "type": "address" }], "stateMutability": "view", "type": "function" }, { "inputs": [{ "internalType": "address", "name": "_newImpl", "type": "address" }], "name": "upgradeImpl", "outputs": [], "stateMutability": "nonpayable", "type": "function" }];
+//# sourceMappingURL=upgradableproduct.js.map

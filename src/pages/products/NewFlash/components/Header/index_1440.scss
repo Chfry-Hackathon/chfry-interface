@@ -1,0 +1,141 @@
+@media screen and (min-width: 1440px) {
+  $bg-color: #f499ad;
+  .m-chfry-flash-header-wrapper {
+    .ant-select-open .ant-select-selection {
+      box-shadow: none !important;
+    }
+    .ant-select-focused .ant-select-selection,
+    .ant-select-selection:focus,
+    .ant-select-selection:active {
+      box-shadow: none !important;
+    }
+    .ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+      background-color: #ffffff;
+    }
+    .m-chfry-select-option-item {
+      width: 244px !important;
+      height: 40px !important;
+      display: flex;
+      align-items: center;
+    }
+    ::v-deep .ant-input-group-wrapper {
+      width: 100%;
+      height: 44px;
+    }
+    ::v-deep .ant-select-dropdown-menu-item {
+      background-color: $bg-color !important;
+    }
+    .ant-select-dropdown-menu-item-selected {
+      background-color: #f499ad !important;
+    }
+    .m-chfry-select-option-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+      background-color: #f499ad !important;
+    }
+    .ant-select-dropdown-menu-item-selected {
+      background-color: #f499ad !important;
+    }
+    #m_select_container {
+      background-color: #f499ad !important;
+      width: 244px !important;
+      height: 48px !important;
+      font-family: Arial;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      .ant-select-selection--single {
+        height: 48px !important;
+        display: flex;
+        align-items: center;
+        background-color: #f499ad !important;
+        border: 1px solid #000000;
+      }
+    }
+    ::v-deep .ant-select-dropdown-menu-item {
+      background: $bg-color !important;
+    }
+  }
+
+  //-------------------
+  .m-chfry-flash-btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-image: url("../../../../../assets/newFlash/try_flash_bg.svg#svgView(preserveAspectRatio(none))") !important;
+    filter: none;
+    border: 0;
+    &:link,
+    &:visited {
+      background-image: url("../../../../../assets/newFlash/try_flash_bg.svg#svgView(preserveAspectRatio(none))") !important;
+    }
+
+    &:hover {
+      background-image: url("../../../../../assets/newFlash/try_flash_bg_hover.svg#svgView(preserveAspectRatio(none))") !important;
+    }
+    &:active,
+    &::after,
+    &.m-chfry-flash-btn-active,
+    &.m-chfry-flash-btn-active:active {
+      color: #fbb33b;
+      font-family: Arial Black;
+      font-style: normal;
+      text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+      background-image: url("../../../../../assets/newFlash/try_flash_bg_active.svg#svgView(preserveAspectRatio(none))") !important;
+    }
+  }
+  .m-chfry-flash-header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 49px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    .m-chfry-flash-header-content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      .m-chfry-flash-header-content-left {
+        width: 558px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .m-chfry-flash-try-flash-btn-box {
+          padding-left: 10px;
+          padding-right: 10px;
+          &.two {
+            padding-left: 0px;
+          }
+          .m-chfry-flash-try-flash-btn {
+            width: 180px;
+            height: 49px;
+          }
+        }
+      }
+      .m-chfry-flash-header-content-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .m-chfry-flash-reward-data-btn-box {
+          padding-left: 16px;
+          .m-chfry-reward-btn {
+            width: 161px;
+            height: 49px;
+          }
+        }
+        .m-chfry-flash-reward-box {
+          line-height: 49px;
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 16px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

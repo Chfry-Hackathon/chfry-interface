@@ -1,0 +1,121 @@
+@media screen and (max-width: 1279px) and (min-width: 751px) {
+
+  ::v-deep .ant-tabs-nav-wrap{
+    text-align: center;
+  }
+  ::v-deep .ant-tabs-bar{
+    margin: 0;
+    border: 0!important;
+  }
+
+  ::v-deep .ant-tabs-nav-animated{
+    border-radius: 1rem;
+    padding: 48px 0 32px;
+  }
+
+  ::v-deep .ant-tabs-nav .ant-tabs-tab{
+    width: 117px;
+    height: 36px;
+    background: transparent;
+    background: url("../../../assets/tool/tabs_btn_bg.svg#svgView(preserveAspectRatio(none))") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border: none;
+
+    font-family: Arial Black;
+    font-style: normal;
+    /*font-weight: 900;*/
+    font-size: 12px;
+    line-height: 15px;
+    color: #171717;
+
+    padding: 10px 16px;
+
+    margin-right: 8px!important;
+  }
+
+  ::v-deep .ant-tabs-nav .ant-tabs-tab:hover {
+    background: url("../../../assets/tool/tabs_btn_bg2.svg#svgView(preserveAspectRatio(none))") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+  ::v-deep .ant-tabs-nav .ant-tabs-tab:hover {
+    opacity: 1 !important;
+    width: 117px;
+    height: 36px;
+  }
+  ::v-deep .ant-tabs-nav .ant-tabs-tab-active {
+    width: 117px;
+    height: 36px;
+    padding: 6px;
+    background-image: none !important;
+    color: #FBB33B;
+    background-color: #F499AD;
+    border-radius: 60px;
+    border: 1px solid #000000;
+    text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+
+    font-family: Arial Black;
+    font-style: normal;
+    /*font-weight: 900;*/
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .chr-title {
+    .t2 {
+      font-family: Arial Black;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+
+  .fryer-main {
+    width: 641px;
+    margin: auto;
+    margin: 32px auto 64px;
+    text-align: center;
+
+
+    .chr-title{
+      .t1{
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 55px;
+        display: inline-block;
+        position: relative;
+
+        .t1-span1{
+
+          color: #F68B38;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+        }
+        .t1-span2{
+          color: #FBB33B;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+
+          position: absolute;
+          top: -3px;
+          left: 0;
+        }
+      }
+      .t2{
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+
+      }
+    }
+
+
+  }
+
+}

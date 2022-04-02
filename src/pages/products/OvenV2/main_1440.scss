@@ -1,0 +1,112 @@
+@media screen and (min-width: 1440px) {
+  .page-baskets {
+    position: relative;
+    width: 908px;
+    margin: 24px auto 70px;
+    text-align: center;
+
+    .chr-title {
+      .t1 {
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        /*font-size: 36px;*/
+        /*line-height: 55px;*/
+        font-size: 40px;
+        line-height: 61px;
+        display: inline-block;
+        position: relative;
+
+        .t1-span1 {
+          color: #f68b38;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+        }
+        .t1-span2 {
+          color: #fbb33b;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+
+          position: absolute;
+          top: -3px;
+          left: 0;
+        }
+      }
+      .t2 {
+        font-family: Arial Black;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+      }
+    }
+
+    .item-con {
+      display: flex;
+      margin-top: 48px;
+    }
+
+    .btns {
+      display: flex;
+      justify-content: center;
+      margin: 48px auto;
+
+      .chr-btn {
+        margin: auto 76px;
+        width: 311px;
+        height: 152px;
+
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+
+        display: flex;
+        justify-content: center;
+        padding-top: 12px;
+      }
+      .chr-btn:active {
+        padding-top: 22px;
+      }
+    }
+
+    .text-center {
+      text-align: center;
+    }
+    .pos-relative {
+      position: relative;
+    }
+
+    .p1 {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .p1-item {
+        position: relative;
+        width: 294px;
+        margin: 0 18px;
+        background: #f499ad;
+        border: 2px solid #1d1d1b;
+        /*-webkit-border-radius: 50% 2rem;*/
+        /*-moz-border-radius: 50% 2rem;*/
+        /*border-radius: 50% 2rem;*/
+      }
+
+      .icon {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin-left: 12px;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

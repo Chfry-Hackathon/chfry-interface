@@ -1,0 +1,46 @@
+@media screen and (max-width: 750px) {
+  .m-card-container {
+    width: 153px;
+    height: 99px;
+    background-image: url("../../../../../../assets/newFlash/card_bg.svg#svgView(preserveAspectRatio(none))");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    // &:hover {
+    //   background-image: url("../../../../../../assets/newFlash/card_bg_hover.svg#svgView(preserveAspectRatio(none))");
+    // }
+    .m-card-content {
+      padding-left: 6px;
+      padding-bottom: 6px;
+      .m-card-title {
+        padding-top: 23px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        span {
+          position: relative;
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 10px;
+          line-height: 14px;
+          color: #000000;
+        }
+      }
+      .m-card-number {
+        width: 100%;
+        padding-top: 11px;
+        display: flex;
+        justify-content: space-around;
+        span {
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 12px;
+          line-height: 17px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}

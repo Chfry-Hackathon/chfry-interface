@@ -1,0 +1,124 @@
+@media screen and (max-width: 750px){
+
+  .page-baskets {
+    position: relative;
+    width: 100%;
+    padding: 32px 16px 64px;
+    text-align: center;
+
+    .chr-title{
+      .t1{
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 49px;
+        display: inline-block;
+        position: relative;
+
+        .t1-span1{
+
+          color: #F68B38;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+        }
+        .t1-span2{
+          color: #FBB33B;
+          text-stroke: 1px black;
+          -webkit-text-stroke: 1px black;
+
+          position: absolute;
+          top: -3px;
+          left: 0;
+        }
+      }
+      .t2{
+        font-family: Arial Black;
+        font-style: normal;
+        /*font-weight: 900;*/
+        font-size: 14px;
+        line-height: 20px;
+
+      }
+    }
+
+    .item-con {
+
+      display: flex;
+      flex-direction: column;
+      margin-top: 48px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btns{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 28px auto 48px;
+
+      .chr-btn{
+        margin: auto 84px;
+        width: 169px;
+        height: 83px;
+
+        font-family: Bugaki;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+
+
+        display: flex;
+        justify-content: center;
+        padding-top: 8px;
+      }
+
+      .chr-btn:active{
+        padding-top: 12px;
+      }
+    }
+
+    .text-center{
+      text-align: center;
+    }
+    .pos-relative{
+      position: relative;
+    }
+
+    .p1{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .p1-item{
+        position: relative;
+        width: 294px;
+        margin: 0 18px;
+        background: #F499AD;
+        border: 2px solid #1D1D1B;
+        /*-webkit-border-radius: 50% 2rem;*/
+        /*-moz-border-radius: 50% 2rem;*/
+        /*border-radius: 50% 2rem;*/
+
+      }
+
+      .icon{
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin-left: 12px;
+
+        img{
+          width: 100%;
+        }
+      }
+    }
+
+
+  }
+
+}

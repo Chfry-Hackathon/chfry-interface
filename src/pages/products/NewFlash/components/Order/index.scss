@@ -1,0 +1,113 @@
+@media screen and (min-width: 751px) {
+  .holding {
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    color: #000000;
+  }
+  .position {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    .position-number {
+      font-family: Arial Black;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      color: #000000;
+    }
+  }
+  .pnl {
+    font-family: Arial Black;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    color: #000000;
+  }
+  .chr-c-btn {
+    min-width: 65px !important;
+    height: 32px !important;
+    border: 1px solid #000000;
+    font-size: 10px;
+    line-height: 21px !important;
+  }
+  .m-chfry-add-margin-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 148px;
+    height: 49px;
+  }
+  .m-chfry-flash-btn {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-image: url("../../../../../assets/newFlash/try_flash_bg.svg#svgView(preserveAspectRatio(none))");
+    filter: none;
+    border: 0;
+    &:link,
+    &:visited {
+      background-image: url("../../../../../assets/newFlash/try_flash_bg.svg#svgView(preserveAspectRatio(none))");
+    }
+
+    &:hover {
+      background-image: url("../../../../../assets/newFlash/try_flash_bg_hover.svg#svgView(preserveAspectRatio(none))");
+    }
+    &:active,
+    &.m-chfry-flash-btn-active {
+      color: #fbb33b;
+      font-family: Arial Black;
+      font-style: normal;
+      text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+      background-image: url("../../../../../assets/newFlash/try_flash_bg_active.svg#svgView(preserveAspectRatio(none))");
+    }
+  }
+
+  .m-marigin-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    .m-margin-header {
+      width: 100%;
+      padding-top: 24px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      .m-margin-header-left {
+        text-align: left;
+        .orders {
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 16px;
+          line-height: 23px;
+          color: #171717;
+          line-height: 23px;
+        }
+        .positon-fee {
+          padding-top: 12px;
+          font-family: Arial Black;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 14px;
+          color: #171717;
+          .content {
+            display: flex;
+            align-items: center;
+            line-height: 14px;
+            .popover {
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

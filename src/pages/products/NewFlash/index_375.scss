@@ -1,0 +1,42 @@
+@media screen and (max-width: 750px) {
+  .m-chfry-flash-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 220px;
+    .m-pc-chfry-flash-content {
+      padding-top: 32px;
+    }
+  }
+
+  .m-pc-chfry-flash-content {
+    width: 100%;
+    .ver-scroll {
+      padding-top: 32px;
+    }
+    .m-chfry-flash-wrapper {
+      /* padding-top: 53px; */
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &.two {
+        padding-top: 0px;
+      }
+      .m-chfry-flash-list-left-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .m-chfry-flash-list-right-box {
+        /* padding-left: 60px; */
+        .m-chfry-flash-list-right-content {
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@media screen and (min-width: 1440px) {
+  .m-chfry-flash-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 220px;
+    .m-pc-chfry-flash-content {
+      padding-top: 32px;
+    }
+  }
+
+  .m-pc-chfry-flash-content {
+    .m-chfry-flash-cart-wrapper {
+      padding-top: 30px;
+    }
+    .m-chfry-flash-wrapper {
+      padding-top: 53px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .m-chfry-flash-content {
+        display: flex;
+        align-items: center;
+        &.two {
+          padding-top: 0px;
+        }
+        .m-chfry-flash-list-left-box {
+          width: 100%;
+        }
+        .m-chfry-flash-list-right-box {
+          padding-left: 60px;
+          .m-chfry-flash-list-right-content {
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
